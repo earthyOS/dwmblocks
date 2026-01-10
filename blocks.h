@@ -9,8 +9,8 @@
 
 static const Block blocks[] = {
 //	  Label		   Command				Int		SIG
-	{"CPU: ",	"sb-cpuusage",			1,		0},
 	{"Vol: ",	"sb-volume",			1,		SIG},
+	{"CPU: ",	"sb-cpuusage",			1,		0},
 	{"Mem: ",	"sb-memory",			1,		0},
 	{"Temp: ",	"sb-cputemp -f",		1,		0},
 	//{"IP: ",	"sb-network",			1,		0},

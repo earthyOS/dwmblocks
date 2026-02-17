@@ -13,7 +13,6 @@ static const Block blocks[] = {
 	{"CPU: ",	"sb-cpuusage",			1,		0},
 	{"Mem: ",	"sb-memory",			1,		0},
 	{"Temp: ",	"sb-cputemp",		1,		0},
-	//{"IP: ",	"sb-network",			1,		0},
 	//{"Bat: ",	"sb-battery",			60,		0},
 	{"",		"date '+%b %d, %I:%M %p'",	1,		0},
 };
